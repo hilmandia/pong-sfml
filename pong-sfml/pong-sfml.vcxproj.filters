@@ -21,9 +21,21 @@
     <ClCompile Include="src\Ball.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\PlayerOne.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayerTwo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Ball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlayerOne.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlayerTwo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

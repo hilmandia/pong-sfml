@@ -134,10 +134,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\PlayerTwo.cpp" />
+    <ClCompile Include="src\PlayerOne.cpp" />
     <ClCompile Include="src\Ball.cpp" />
     <ClCompile Include="src\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\PlayerTwo.h" />
+    <ClInclude Include="src\PlayerOne.h" />
     <ClInclude Include="src\Ball.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

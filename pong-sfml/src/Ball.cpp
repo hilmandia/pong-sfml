@@ -29,15 +29,21 @@ void Ball::bounceSides()
 	m_DirectionX = -m_DirectionX;
 }
 
-void Ball::bounceTop()
+void Ball::missTop()
 {
-	m_DirectionY = -m_DirectionY;
+	m_Position.x = 1280 / 2;
+	m_Position.y = 360;
 }
 
 void Ball::missBottom()
 {
 	m_Position.x = 1280 / 2;
-	m_Position.y = 0;
+	m_Position.y = 360;
+}
+
+void Ball::hitBall()
+{
+	m_DirectionY = -m_DirectionY;
 }
 
 void Ball::update(sf::Time dt)
